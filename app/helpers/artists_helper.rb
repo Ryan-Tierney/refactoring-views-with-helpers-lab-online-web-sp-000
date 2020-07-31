@@ -1,7 +1,7 @@
 module ArtistsHelper
   
   def display_artist
-    if artist.song == true 
+    if song.artist
       link_to artist_path(@artist)
     else 
       link_to song_path(@song)
